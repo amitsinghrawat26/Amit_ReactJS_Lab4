@@ -1,0 +1,132 @@
+body{
+  height: 100%;
+}
+
+header{
+  border-radius: 5px;
+  height: auto;
+  background-color: darkgray;
+  text-align: center;
+  
+}
+
+#page-header {
+  color: greenyellow;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.use-inline{
+  width: 30%;
+  font-size: large;
+  padding: 20px;
+  margin: 5px;
+  display: inline-block;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.date{
+  width: 12%;
+  text-align: center;
+  background-color: orange;
+}
+
+.price{
+  width: 7%;
+  text-align: center;
+  background-color: orange;
+}
+
+.payee{
+  width: 10%;
+  background-color: rgb(187, 5, 187);
+}
+
+.header-color{
+  color: white;
+  background-color: black;
+}
+
+#add-button{
+  padding: 20px;
+  position: fixed;
+  width: 10%;
+  top: 120px;
+  right: 50px;
+  background-color: greenyellow;
+  float: right;
+  border-radius: 5px;
+  font-size: xx-large;
+  border: none;
+}
+
+.total{
+  background-color: lightgreen;
+}
+
+.rahul, .ramesh{
+  background-color: rgb(102, 207, 172);
+}
+
+.payable{  
+  background-color: red;
+}
+
+.form{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(252, 249, 249,0.2);
+}
+
+section{
+  background-color: rgb(255, 255, 253,0.1);
+  height: max-content;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.form-header{
+  background-color: rgb(255, 255, 124);
+  width: 700px;
+  border-radius: 6px;
+}
+
+p{
+  text-align: left;
+}
+
+.note{
+  color: red;
+}
+
+.form-data-input{ 
+  background-color: white;
+  display: grid;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+input,select {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin: 0;
+}
+
+.form-data-input-btn{
+  width: fit-content;
+  text-align: center;
+  align-items: flex-start;
+  margin-left: 400px;
+}
+
+button{
+  margin-left: 10px;
+}
